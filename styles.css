@@ -1,67 +1,64 @@
-/* Style général */  
-body {  
-    font-family: 'Arial', sans-serif; /* Police de caractères */  
-    margin: 0; /* Marge par défaut */  
-    padding: 0; /* Rembourrage par défaut */  
-    background-color: #f4f4f9; /* Couleur d'arrière-plan */  
-    color: #333; /* Couleur du texte */  
-}  
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
 
-/* En-tête */  
-header {  
-    background: #007BFF; /* Couleur bleue pour l'en-tête */  
-    color: #fff; /* Couleur du texte en blanc */  
-    padding: 20px; /* Rembourrage pour l'en-tête */  
-    text-align: center; /* Centrage du texte */  
-}  
+/* En-tête */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
 
-/* Sections du contenu */  
-.content {  
-    margin: 20px; /* Marge autour des sections */  
-    padding: 15px; /* Rembourrage à l'intérieur des sections */  
-    background: #ffffff; /* Couleur de fond blanche */  
-    border-radius: 8px; /* Coins arrondis */  
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour une profondeur */  
-}  
+/* Contenu principal */
+main {
+    padding: 20px;
+}
 
-/* Masquer les sections par défaut */  
-.hidden {  
-    display: none; /* Ne pas afficher les sections masquées */  
-}  
+/* Sections de contenu */
+.content {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-/* Styles des boutons */  
-button {  
-    background: #28a745; /* Couleur verte pour les boutons */  
-    color: #fff; /* Couleur du texte en blanc */  
-    border: none; /* Pas de bordure */  
-    padding: 10px 15px; /* Rembourrage interne */  
-    margin: 5px 0; /* Marge autour des boutons */  
-    border-radius: 5px; /* Coins arrondis */  
-    cursor: pointer; /* Affichage de la main au survol */  
-}  
+/* Boutons */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
-button:hover {  
-    background: #218838; /* Couleur plus foncée au survol */  
-}  
+button:hover {
+    background-color: #0056b3;
+}
 
-/* Champs de saisie */  
-input[type="number"] {  
-    width: calc(100% - 20px); /* Largeur des champs de saisie */  
-    padding: 10px; /* Rembourrage interne */  
-    margin: 5px 0; /* Marge autour des champs de saisie */  
-    border: 1px solid #ccc; /* Bordure grise pour les champs */  
-    border-radius: 5px; /* Coins arrondis */  
-}  
+/* Champs de saisie */
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
 
-/* Pied de page */  
-footer {  
-    text-align: center; /* Centrage du texte dans le pied de page */  
-    padding: 10px; /* Rembourrage pour le pied de page */  
-    background: #007BFF; /* Couleur bleue pour le pied de page */  
-    color: white; /* Couleur du texte en blanc */  
-}  
-
-/* Style de contact */  
-.contact {  
-    margin-top: 10px; /* Marge au-dessus de la section contact */  
+/* Pied de page */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
 }
